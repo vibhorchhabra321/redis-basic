@@ -10,4 +10,10 @@ Bind the server to 0.0.0.0 instead.
 
 Now, connect to the redis server from the host machine or remote machine using the belwo command
 
-redis-cli -h 'IP-address-of-dockerhost-running-redis-container' -p 'port' 
+redis-cli -h 'IP-address-of-dockerhost-running-redis-container' -p 'port'
+
+#Important URL
+https://blog.sensible.io/2013/08/20/setting-up-redis-for-production-environment.html
+
+#CHECK redis-server version
+$redis-server --version 
