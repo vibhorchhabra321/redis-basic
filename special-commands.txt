@@ -1,0 +1,13 @@
+#STEP1
+Install redis-tool on the host machine
+
+sudo apt-get redis-tool
+
+#STEP2
+Make sure the redis server is not binded to 127.0.0.1
+This can be checked by checking the redis.conf file which is saved in /usr/local/etc/redis.conf file.
+Bind the server to 0.0.0.0 instead.
+
+Now, connect to the redis server from the host machine or remote machine using the belwo command
+
+redis-cli -h 'IP-address-of-dockerhost-running-redis-container' -p 'port' 
